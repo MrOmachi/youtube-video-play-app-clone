@@ -1,0 +1,23 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.navigation {
+  background-color: #252525;
+  padding: 20px 0;
+}
+.navigation-content {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 90%;
+  margin: auto;
+}
+.title-section {
+  display: flex;
+}
+.titles-likes-comment {
+  width: 80%;
+  margin: 0 30px;
+}

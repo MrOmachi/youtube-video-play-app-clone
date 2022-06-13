@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Video-play app</title>
+    <script
+      src="https://kit.fontawesome.com/32958caa6f.js"
+      crossorigin="anonymous"
+    ></script>
+
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <nav class="navigation">
+      <div class="navigation-content">
+        <div class="logoSection">
+          <i
+            class="fa-solid fa-bars fa-lg"
+            style="color: white; width: 40px"
+          ></i>
+          <i
+            class="fa-brands fa-youtube fa-lg"
+            style="color: red; width: 40px"
+          ></i>
+          <span class="youtube-text" style="color: white">YouTube</span>
+        </div>
+
+        <div class="searchSection">
+          <input
+            type="search"
+            placeholder="Search"
+            style="width: 380px; height: 30px"
+          />
+          <i
+            class="fa-solid fa-magnifying-glass"
+            style="margin: 0 20px; color: white"
+          ></i>
+          <i
+            class="fa-solid fa-microphone"
+            style="margin: 0 5px; color: white"
+          ></i>
+        </div>
+
+        <div class="notificationSection">
+          <i class="fa-solid fa-video" style="color: white; width: 40px"></i>
+          <i class="fa-solid fa-grip" style="color: white; width: 40px"></i>
+          <i class="fa-solid fa-bell" style="color: white; width: 40px"></i>
+          <i
+            class="fa-brands fa-youtube-square"
+            style="color: white; width: 40px"
+          ></i>
+        </div>
+      </div>
+    </nav>
+
+    <div class="main">
+      <div class="video-play">
+        <iframe
+          width="100%"
+          height="515"
+          src="https://www.youtube.com/embed/iZhV0bILFb0"
+          title="YouTube video player"
+          frameborder="0"
+          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+          allowfullscreen
+        ></iframe>
+      </div>
+
+      <div class="title-section">
+        <div class="titles-likes-comment">
+          <div class="title">
+            React Tutorial - Fundamentals, Hooks, Context API, React Router,
+            Custom Hooks
+          </div>
+          <div class="likes-share-download">
+            <span style="margin-right: 40px">283,380</span>
+            <i class="fa-solid fa-thumbs-up" style="width: 20px"></i
+            ><b>8.2k</b>
+            <i
+              class="fa-solid fa-thumbs-down"
+              style="width: 20px; margin-left: 20px"
+            ></i
+            ><b>DISLIKE</b>
+            <i
+              class="fa-solid fa-share"
+              style="width: 20px; margin-left: 20px"
+            ></i
+            ><b>SHARE</b>
+            <i
+              class="fa-solid fa-download"
+              style="width: 20px; margin-left: 20px"
+            ></i
+            ><b>DOWNLOAD</b>
+            <i
+              class="fa-solid fa-scissors"
+              style="width: 20px; margin-left: 20px"
+            ></i
+            ><b>CLIP</b>
+            <i
+              class="fa-solid fa-align-left"
+              style="width: 20px; margin-left: 20px"
+            ></i
+            ><b>SAVE</b>
+          </div>
+          <br />
+          <hr />
+          <br />
+          <div class="description">
+            <i
+              class="fa-brands fa-youtube fa-lg"
+              style="color: red; width: 40px"
+            ></i>
+            <span><b>Coding Addict</b></span>
+            <p>
+              Complete React Tutorial (inc. Hooks, Context API, React Router,
+              Custom Hooks) <br />
+
+              Source Code - www.johnsmilga.com
+            </p>
+          </div>
+          <br />
+          <hr />
+          61
+        </div>
+
+        <div>
+          <div class="video-previews">
+            <iframe
+              width="230"
+              height="230"
+              src="https://www.youtube.com/embed/vyJU9efvUtQ"
+              title="YouTube video player"
+              frameborder="0"
+              allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+              allowfullscreen
+            ></iframe>
+            <span class="vid-title" style="margin-bottom: 29px">
+              Material UI React Tutorial
+            </span>
+          </div>
+          <div class="video-previews">
+            <iframe
+              width="230"
+              height="230"
+              src="https://www.youtube.com/embed/CgjlftJNfKc"
+              title="YouTube video player"
+              frameborder="0"
+              allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+              allowfullscreen
+            ></iframe>
+            <span class="vid-title" style="margin-bottom: 29px">
+              BOOTSTRAP VS MATERIAL COMPARISON
+            </span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
